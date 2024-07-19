@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Conta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="novoMenu">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo.jpg" alt=""> 
+                </div>
+                <nav>
+                    <ul id="MenuItens">
+                        <li><a href="index.html"title="">Inicío</a></li>
+                        <li><a href="produtos.html"title="">Produtos</a></li>
+                        <li><a href="minha-conta.html"title="">Minha Conta</a></li>
+                    </ul>
+                </nav>
+               
+                <img src="img/pngwing.com (2).png" alt="" width="40px" height="40px">
+                
+                <img src="img/menu.png" alt="" class="menu-celular" onclick="menucelular()">
+            </div>            
+        </div>
+    </div>
+      
+        <div class="minha-conta">
+            <div class="container">
+                <div class="linha">
+
+                    <div class="col-2">
+                        <img src="img/pngwing.com.png" alt="" width="100%">
+                    </div>
+
+                    <div class="col-2">
+                        <div class="formulario">
+
+                            <div class="btn-form">
+                                <span onclick="Entrar()">Entrar</span>
+                                <span onclick="Cadastro()">Cadastro</span>
+                                <hr id="Indicador">
+                            </div>
+
+                            <form action="" method="post" id="EntrarPainel">
+                                <input type="email" name="email" id=""placeholder="E-mail de aceso">
+                                <input type="password" name="senha" id=""placeholder="Digite sua Senha">
+                                <button type="submit" name="senEntrar" class="btn">Entrar</button>
+                                <a href=""title="">Esqueceu sua senha</a>
+                            </form>
+
+                            <form action=""method="post" id="CadastroSite">
+                                <input type="text" name="nome" id=""placeholder="Nome Completo">
+                                <input type="email" name="email" id=""placeholder="E-mail de aceso">
+                                <input type="password" name="senha" id=""placeholder="Digite sua Senha">
+                                <button type="submit" name="sendCad" class="btn">Cadastre-se</button>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="rodape">
+
+            <div class="container">
+                <div class="linha">
+
+                    <div class="rodape-col-1">
+                        <h3>Baixe o nosso app</h3>
+                        <p>Baixe nosso aplicativo nas melhores plataformas.</p>
+                        <div class="app-logo">
+                            <img src="img/google.png" alt="">
+                            <img src="img/store (2).png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="rodape-col-2">
+                        <h3>Mais Informações</h3>
+                        <ul>
+                            <li>Cupons</li>
+                            <li>Política de Privacidade</li>
+                            <li>Contatos</li>
+                        </ul>
+                    </div>
+
+                    <div class="rodape-col-3">
+                        <h3>Rede Sociais</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Intagram</li>
+                            <li>Twitter</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <hr>
+                <p class="direitos">
+                    &#169;Todos os direitos reservados a Urban Moveis.
+                </p>
+            </div>
+            </div>    
+        </footer>
+            
+        </div>
+    </div>
+    </div>
+    
+    <script src="js/login.js"></script>
+</body>
+</html>
